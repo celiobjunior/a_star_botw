@@ -1,4 +1,4 @@
-from implementation import *
+from src.implementation import *
 
 g = SquareGrid(50, 50)
 g.walls = DIAGRAM1_WALLS

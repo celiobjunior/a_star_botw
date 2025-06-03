@@ -7,7 +7,7 @@
 from __future__ import annotations
 # some of these types are deprecated: https://www.python.org/dev/peps/pep-0585/
 from typing import Protocol, Iterator, Tuple, TypeVar, Optional
-from guardians import locations
+from data.guardians import locations
 T = TypeVar('T')
 
 Location = TypeVar('Location')
